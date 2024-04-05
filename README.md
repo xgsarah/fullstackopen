@@ -14,7 +14,7 @@ The course covers testing, configuration and environment management, the use of 
 
 - Introduction to React - [x] - April 3, 2024
 - JavaScript - [x] - April 4, 2024
-- Component State, event handlers - []
+- Component State, event handlers - [X] - April 5, 2024
 - A more complex state, debugging React apps - []
 
 ### [Part 2 - Communicating with server](https://fullstackopen.com/en/part2)
