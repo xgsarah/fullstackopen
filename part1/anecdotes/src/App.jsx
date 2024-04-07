@@ -25,14 +25,31 @@ const App = () => {
     setPoints(points.map((val, i) => (i === selected ? vote : val)));
   };
 
+  const getIndexOfMax = () => {
+    let max = points[0];
+    let index = 0;
+
+    points.forEach((val, i) => {
+      if (val > max) {
+        max = val;
+        index = i;
+      }
+    });
+    
+    return index;
+  };
+
   return (
     <div>
+      <h2>Anecdote of the day</h2>
       <div>{anecdotes[selected]}</div>
       <div>has {points[selected]} votes</div>
       <div>
         <button onClick={handleVote}>vote</button>
         <button onClick={handleNext}>next anecdote</button>
       </div>
+      <h2>Anecdote with most votes</h2>
+      <div>{anecdotes[getIndexOfMax()]}</div>
     </div>
   );
 };
