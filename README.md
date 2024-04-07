@@ -19,7 +19,7 @@ The course covers testing, configuration and environment management, the use of 
 
 ### [Part 2 - Communicating with server](https://fullstackopen.com/en/part2)
 
-- Rendering a collection, modules - []
+- Rendering a collection, modules - [x] - April 7, 2024
 - Forms - []
 - Getting data from server - []
 - Altering data in server - []
